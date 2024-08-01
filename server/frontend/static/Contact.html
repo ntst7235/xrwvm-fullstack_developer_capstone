@@ -1,0 +1,85 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px;
+        border-radius: 15px;
+        background-color: Snow;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cars {
+        max-width: 50%;
+        height: auto;
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding: 20px;
+    }
+    .contact-info img {
+        max-width: 20%;
+        height: auto;
+    }
+    .contact-info p {
+        margin: 5px 0;
+    }
+    .contact-info a {
+        color: #40C8C7;
+        text-decoration: none;
+    }
+</style>
+</head>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+   <div class="content">
+        <img class="cars" src="/static/cars.png" alt="Cars image">
+        <div class="contact-info">
+            <div>
+                <img src="/static/customer-service.png" alt="Customer Service image">
+            </div>
+            <p><a href="mailto:support@bestcars.com">Contact Customer Service</a></p>
+            <p><a href="mailto:NationalSales@bestcars.com">Contact our National Advertising team</a></p>
+            <p><a href="mailto:PR@bestcars.com">Contact our Public Relations team</a></p>
+            <p>Contact the bestcars.com offices<br>312-611-1111</p>
+            <p><a href="https://www.growwithbestcars.com">Become a bestcars.com car dealer</a></p>
+            <p><a href="https://www.growwithbestcars.com">Visit growwithbestcars.com</a></p>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+</div>
+
+</html>
